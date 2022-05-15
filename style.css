@@ -91,6 +91,48 @@ nav {
   font-size: 18px;
 }
 
+.random-info {
+  height: 514px;
+  width: 71%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.random-info-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-top: 50px;
+}
+
+.random-info-gallery-subtext {
+  font-size: 18px;
+  color: grey;
+}
+
+.random-info-gallery {
+  margin-top: 50px;
+  display: flex;
+  gap: 44px;
+}
+
+.random-info-gallery-card {
+  display: flex;
+  flex-direction: column;
+  width: 184px;
+  text-align: center;
+}
+
+.random-info-gallery-image {
+  width: 172px;
+  height: 172px;
+  border-radius: 8px;
+  border: 4px solid #3882f6;
+  margin-bottom: 12px;
+}
+
 .footer {
   background-color: #1f2937;
 }
