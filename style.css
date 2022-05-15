@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 a {
@@ -36,25 +36,27 @@ a {
 
 nav {
   display: flex;
-  align-items: center;
+  width: 71%;
+  margin: auto;
   justify-content: space-between;
-  padding: 20px 220px;
+  align-items: center;
+  padding-top: 24px;
 }
 
 .links {
   display: flex;
-  gap: 32px;
+  gap: 34px;
 }
 
 .hero-content-container {
   display: flex;
-  justify-content: center;
+  width: 71%;
+  margin: auto;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 132px;
-  padding-left: 220px;
-  padding-right: 220px;
-  gap: 90px;
+  gap: 128px;
+  padding-top: 36px;
+  padding-bottom: 144px;
 }
 
 .hero-content {
@@ -62,7 +64,13 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 72px;
+  padding-top: 84px;
+}
+
+.hero-image {
+  width: 1024px;
+  height: 250px;
+  padding-top: 84px;
 }
 
 .hero-content > p {
@@ -71,7 +79,7 @@ nav {
 }
 
 .hero-content > button {
-  background-color: #3882f6; /* Green */
+  background-color: #3882f6;
   border: none;
   border-radius: 8px;
   color: white;
@@ -81,12 +89,6 @@ nav {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-}
-
-.hero-image > img {
-  width: 550px;
-  height: 250px;
-  padding-top: 84px;
 }
 
 .footer {
