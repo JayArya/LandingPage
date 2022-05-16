@@ -134,7 +134,7 @@ nav {
 }
 
 .quote-section {
-  height: 514px;
+  height: 464px;
   background-color: #e5e7eb;
   display: flex;
   align-items: justify;
@@ -165,7 +165,7 @@ nav {
 }
 
 .call-to-action-section {
-  height: 400px;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,7 +174,7 @@ nav {
 .call-to-action-box {
   background-color: #3882f6;
   width: 70%;
-  height: 164px;
+  height: 46%;
   border-radius: 8px;
   color: #e5e7eb;
   display: flex;
@@ -213,5 +213,5 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 48px;
+  padding: 40px;
 }
